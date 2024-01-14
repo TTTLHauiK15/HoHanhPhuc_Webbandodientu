@@ -2,7 +2,7 @@
 	class Controller{
 		//bien luu noi dung cua file doc vao
 		public $view = NULL;
-		//bien luu duong dan file layout !
+		//bien luu duong dan file layout
 		public $layoutPath = NULL;
 		//ham load file de hien thi len trang
 		public function loadView($fileName,$data = NULL){
